@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario-Personas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="container">
+      <form id="my-form" action="">
+        <div class="title">
+          <h1>Cadastro de Pessoas</h1>
+        </div>
+        <div class="box-form">
+          <div class="inputs-form">
+            <label for="name" class="label-form">Nome:</label>
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              class="input-form"
+              placeholder="Seu nome aqui."
+            />
+          </div>
+          <div class="inputs-form">
+            <label for="idade" class="label-form">Idade:</label>
+            <input
+              type="number"
+              name="idade"
+              id="idade"
+              class="input-form"
+              placeholder="Sua Idade aqui."
+            />
+          </div>
+          <div class="inputs-form">
+            <label for="cor" class="label-form">Cor Favorita:</label>
+            <input
+              type="text"
+              name="cor"
+              id="cor"
+              class="input-form"
+              placeholder="Seu nome aqui."
+            />
+          </div>
+          <div class="btns">
+            <button type="submit" class="btn-primary">Adicionar Pessoa</button>
+            <button
+              type="button"
+              onclick="finalizarCadastro()"
+              class="btn-secundary"
+            >
+              Finalizar cadastro
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="resultados" id="resultados"></div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p>&copy; 2025 Visionária.dev. Todos os direitos reservados.</p>
+        <div class="footer-links">
+          <a href="https://isbeli.github.io/SobreMim/">Sobre</a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=%2B5592988173040&text&type=phone_number&app_absent=0"
+            >Contato</a
+          >
+          <a href="https://www.linkedin.com/in/isbeli-ramirez-43a802130/"
+            >Linkedin</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&display=swap");
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  appearance: textfield;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Centraliza a seção na tela */
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa 100% da altura da tela */
+  background-color: #f0f0f0; /* Cor de fundo suave */
+}
+
+/* Estilo do formulário */
+#my-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+/* Espaçamento entre os campos */
+.box-form .inputs-form {
+  margin-bottom: 1rem;
+}
+
+/* Estilo das labels e inputs */
+.label-form {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+.input-form {
+  width: 17.7rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: "Epilogue", sans-serif;
+}
+
+.resultados {
+  margin: 2rem;
+  background-color: #bcd4ff;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+
+/* Botão */
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+.btn-primary {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-secundary {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #118847;
+}
+.btn-secundary:hover {
+  background-color: #11884788;
+}
+
+.footer {
+  background-color: #222;
+  color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #db26db;
+}
